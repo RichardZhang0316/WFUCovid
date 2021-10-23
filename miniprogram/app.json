@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/HomePage/HomePage",
+    "pages/ForsythData/ForsythData",
+    "pages/Clarification/Clarification",
+    "pages/dataExplain/dataExplain",
+    "pages/aboutUs/aboutUs",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor":"#9E7E38",
+    "navigationBarTitleText": "WFU疫情监测",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+
+  "tabBar": {
+    "color": "#959394",  
+    "selectedColor": "#FDC314",
+    "backgroundColor":"#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/HomePage/HomePage",
+        "iconPath": "image/home-no.png",
+        "selectedIconPath": "image/home-yes.png",
+        "text":"校内"
+      },
+      {
+        "pagePath": "pages/ForsythData/ForsythData",
+        "iconPath": "image/me-no.png",
+        "selectedIconPath": "image/me-yes.png",
+        "text":"福赛斯郡"
+      },
+      {
+        "pagePath": "pages/Clarification/Clarification",
+        "iconPath": "image/shit.png",
+        "selectedIconPath": "image/third-yes.png",
+        "text":"数据说明"
+      }
+    ]
+  }
+}

@@ -1,0 +1,141 @@
+page{
+  height: 100%;
+  background: linear-gradient(to bottom, #9E7E38 0%,#9E7E38 20%, #ececec 20%,#ececec 100%); 
+  background-color:  #ececec ;
+  background-repeat: no-repeat;
+} 
+.BIGcard{
+    /*卡片的宽度*/  
+    width: 90%;
+    /*左外边距，这里代表距离最左边的距离*/
+    margin-left: 5%;
+    /*卡片的高度。*/
+    height: 270rpx;
+    /*背景色，可以自己更换*/
+    background: rgb(255, 255, 255);
+    border-radius:10px;
+    /* radius是卡片的边框的圆润c程度*/
+    margin-top: 30px;
+    box-shadow: 0px 5px 5px #cdcfcf;
+    border-style:solid;
+    border-color: rgb(0, 0, 0);
+}
+.mapCard{
+  width: 90%;
+  /*左外边距，这里代表距离最左边的距离*/
+  margin-left: 5%;
+  /*卡片的高度。*/
+  height: 400rpx;
+  /*背景色，可以自己更换*/
+  /* background: rgb(255, 255, 255); */
+  border-radius:10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  /* radius是卡片的边框的圆润c程度*/
+  box-shadow: 5px 5px 5px #cdcfcf;
+}
+.dataCard{
+    /*卡片的宽度*/  
+    width: 42.5%;
+    /*左外边距，这里代表距离最左边的距离*/
+    margin-left: 5%;
+    /*卡片的高度。*/
+    height: 100%;
+    /*背景色，可以自己更换*/
+    background: rgb(255, 255, 255);
+    /* radius是卡片的边框的圆润c程度
+    shadow是阴影效果，四个值分别为水平阴影，垂直阴影，模糊距离，阴影的颜色。
+    */
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px #cdcfcf;
+}
+.view_class1row {
+    height: 300rpx;
+    display: flex;
+    padding-top: 20px;
+    justify-items: center;
+  } 
+  .view_class2row {
+    height: 300rpx;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    justify-items: center;
+  } 
+  .BigTitle{
+    text-align: center;
+    color:  rgb(253,195,20);
+    color:rgb(158,126,56);
+    /* margin-left: 5%; */
+    font-size: 16px;
+}
+
+.SmallTitle{
+    text-align: center;
+    color:rgb(158,126,56);
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.vocation{
+    height: 50%;
+    width: 90%;
+    padding:8px;
+    margin-left: 5%;
+    box-sizing: border-box;
+    border-radius:10px;
+    align-items: center;
+    justify-items: center;
+    box-sizing: border-box;
+}
+.dataFont{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(83,86,90);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 30%;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.numberFont{
+    color:rgb(158,126,56);
+    text-align: center;
+    font-family: Georgia;
+    font-size: 40px;
+    display: flex;
+  align-items:center;
+  justify-content: center;
+  padding-top: 10px;
+}
+.Pro{
+  font-style: italic;
+  color:rgb(196, 196, 196);
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 5%;
+}
+.ThirdTitle{
+  text-align: center;
+  color: #FDC314;
+  background-color: black;
+  /* border-style: inset;
+  border-color: rgb(158,126,56); */
+  font-size: 16px;
+  border-top-left-radius: 10px;
+  /* margin-top: 50px rgb(255, 255, 255); */
+  border-top-right-radius: 10px;
+  border-bottom: 0px;
+  padding:10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+ 
+
+
+
+  
+  

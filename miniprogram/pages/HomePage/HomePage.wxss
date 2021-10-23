@@ -1,0 +1,145 @@
+.strech{
+    width:100%;
+    /* margin-left: 5%; */
+    box-sizing: border-box;
+    height: 236.111rpx;
+    /* 如果换白图就注释掉下面这几行 */
+    border-style: solid;
+    border-color: rgb(158,126,56);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow:0 6rpx 5rpx 5rpx #bdbdbd;/*for Android*/
+    -webkit-box-shadow:0px 3px 5px 2px #bdbdbd;/*for IOS*/
+}
+
+.BigTitle{
+    text-align: center;
+    color:  rgb(253,195,20);
+    background-color: black;
+    border-color: rgb(158,126,56);
+    border-style: solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 0px;
+    text-shadow:0.5px 0.5px 1px rgb(253,195,20);
+    margin-top: 5px;
+}
+
+.SmallTitle{
+    text-align: center;
+    color:  rgb(253,195,20);
+    background-color: black;
+    font-size: 12px;
+    border-style: solid;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-color:  rgb(158,126,56);
+    text-shadow:0.5px 0.5px 2px rgb(253,195,20);
+}
+
+.SetTable{
+    /* width: 100%; */
+    width:auto;
+    border-color: rgb(158,126,56);
+    border-top: 0px;
+    border-bottom: 0px;
+    border-style:solid;
+    /*这个右边边框一直出不来*/
+
+   }
+   .table{
+    border:1px solid black;
+   }
+   .tr{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+   }
+   .inspiration{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+   }
+   .th,.td{
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #a7a5a5;
+    border-right: 1px solid #a7a5a5;
+   }
+   .th{
+    font-weight: 800;
+    font-size: 28rpx;
+    color:rgb(83,86,90);
+    text-shadow:0.5px 0.5px 1px rgb(161, 161, 161);
+   }
+   .td{
+    font-size: 40rpx;
+    color:rgb(158,126,56);
+    font-family:georgia;
+   }
+   .canvas {
+    /* width: 100%; */
+    width:auto;
+    height: 250px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 15px;
+    border-style: solid;
+    border-color: rgb(158,126,56);
+    border-top: 0px;
+    margin-bottom: 10px;
+    box-shadow:0 6rpx 5rpx 5rpx #bdbdbd;/*for Android*/
+    -webkit-box-shadow:0px 3px 5px 2px #bdbdbd;/*for IOS*/
+   }
+
+   .swiper-view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* ipad背景图片适配未做 */
+    background-image: url(https://www.usnews.com/dims4/USNEWS/af6b79e/17177859217/resize/800x540%3E/quality/85/?url=https%3A%2F%2Fmedia.beam.usnews.com%2F9a%2F231cae74c8c1e36b11804f602231f4%2Fcollege-photo_11990.jpg);
+    background-size:cover;
+    opacity:0.75;
+    border-style:solid;
+    border-color: rgb(158,126,56);
+    border-top: 0px;
+   }
+
+    
+   .swiper_container {
+    height: 300px;
+    width: 80%;
+    align-content: center;
+   }
+    
+   .swiper_item {
+    height: 300px;
+    width: 100%;
+    font-size: 13px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color:#ffffff;
+    text-shadow:0.5px 0.5px 2px rgb(255, 255, 255);
+    letter-spacing: 1px;
+    font-weight: bold;
+    /* font-family: WCTextStyleText; 改变字体没区别啊好像*/
+   }
+    
+   .ThirdTitle{
+    text-align: center;
+    color: #FDC314;
+    background-color: black;
+    border-style: solid;
+    border-color: rgb(158,126,56);
+    font-size: 16px;
+    border-top-left-radius: 10px;
+    /* margin-top: 50px rgb(255, 255, 255); */
+    border-top-right-radius: 10px;
+    /* text-shadow:0.5px 0.5px 0.5px #FDC314; */
+    border-bottom: 0px;
+    padding:10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+

@@ -1,0 +1,58 @@
+<!--首页前端-->
+<!-- 首页图片这个以后可以做成图片轮播 -->
+ <image class="strech" src="https://www.logolynx.com/images/logolynx/e7/e7d7f5b69e6c9e09834fba0937c02bae.jpeg"></image> 
+ <view class="BigTitle">
+ </view>
+ <view class="SmallTitle">
+ <text>截至美东时间</text>
+ <text class="user-motto">{{time}}</text>
+ </view>
+ <!-- 表格部分借鉴来的 -->
+ <view class="SetTable">
+ <view class="table">
+  <view class="tr">
+    <view class="th">累计确诊</view>
+    <view class="th">现存确诊</view>
+    <view class="th">累计治愈</view>
+  </view>
+  <!-- *数据自动更新 -->
+  <view class="inspiration">
+    <view class="td">{{banner_data.total ? banner_data.total : '-'}}</view>
+    <view class="td">{{banner_data.now ? banner_data.now : '-'}}</view>
+    <view class="td">{{banner_data.total_cure ? banner_data.total_cure : '-'}}</view>
+</view>
+ </view>
+</view>
+ <!--应该是可以用来做表格的 但不知道方法加到哪里
+  <table class="SetTable">
+     <tr class="SetTitle">
+ <td>
+    累计确诊
+ </td>
+ <td>
+    现存确诊
+ </td>
+ <td>
+    累计治愈
+ </td>
+ </tr>
+ </table>  -->
+
+ <canvas canvas-id="columnCanvas" disable-scroll="true" class="canvas"></canvas>
+
+ <view class="ThirdTitle">学校、温莎市及北卡罗来纳州官方防疫信息</view>
+ <view class="swiper-view">
+ <swiper indicatorDots="{true}" indicator-active-color="#FDC314" class="swiper_container" autoplay="true" circular="true" interval="10000">
+  <block wx:for="{{msgList}}" wx:key="id">
+   <swiper-item>
+    <view class="swiper_item">{{item.title}}</view>
+   </swiper-item>
+  </block>
+ </swiper>
+</view>
+
+
+
+ 
+
+

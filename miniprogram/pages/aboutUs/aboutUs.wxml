@@ -1,0 +1,7 @@
+<view class="topTitle">🎩 关于我们</view>
+<view class="card">
+<view>1、我们希望通过技术为维克森林大学中国学生和家长提供便利和帮助</view>
+<view>2、此小程序的目标是为让维克森林大学学生家长及时、方便地了解学校及周边地区疫情情况</view>
+<view>3、我们之后还会对此小程序进行功能更新和优化，并开发更多对维克中国学生和家长有用&有趣的程序。如果你对前端、后端、web开发、Android开发、Swift开发、产品、平面设计感兴趣，欢迎加入我们。添加小助手微信：WFUassistant</view>
+</view>
+<view class="Pro">───── Pro Humanitate ─────</view>

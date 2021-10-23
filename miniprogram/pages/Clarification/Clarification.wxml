@@ -1,0 +1,7 @@
+<view class="topTitle">🦠 数据说明 & 🎩 关于我们</view>
+<view class="card">
+<navigator class="decoration" url="/pages/dataExplain/dataExplain">数据说明</navigator>
+<navigator class="decoration1" url="/pages/aboutUs/aboutUs">关于我们</navigator>
+</view>
+<view class="Pro">───── Pro Humanitate ─────</view>
+<!-- <image src="https://s3.amazonaws.com/alive5cdn/images/widgets/upload/ncaawakeforest-w1613487331261.png"></image> -->

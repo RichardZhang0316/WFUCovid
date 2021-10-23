@@ -1,0 +1,46 @@
+<view class="BIGcard">
+<image class="vocation" src="https://i.loli.net/2021/10/05/dtX4V5waLAjhock.jpg"> 
+</image>
+<view class="BigTitle">福赛斯郡（维克森林所在郡）疫情数据</view>
+<view class="SmallTitle">截至美东时间{{date}}</view>
+</view>
+<view class="view_class1row">
+<view class="dataCard">
+    <view class="dataFont">新增确诊</view>
+    <view class="numberFont">{{num1}}</view>
+</view>
+<view class="dataCard">
+    <view class="dataFont">过去14天确诊</view>
+    <view class="numberFont">{{num2}}</view>
+</view>
+</view>
+<view class="view_class2row">
+<view class="dataCard">
+    <view class="dataFont">累计确诊</view>
+    <view class="numberFont">{{num3}}</view>
+</view>
+<view class="dataCard">
+    <view class="dataFont">累计死亡</view>
+    <view class="numberFont">{{num4}}</view>
+</view>
+</view>
+<!-- 地图组件 -->
+<!-- <view style="display:flex; justify-content:center;" >
+  <map id="myMap" style="width: 90%; height: 600rpx;"
+  longitude="{{longitude}}"
+  latitude="{{latitude}}"
+  scale="15" markers="{{markers}}" ></map>
+</view> -->
+<view class="ThirdTitle">维克森林大学与福赛斯郡地图</view>
+<image class="mapCard" src="https://i.loli.net/2021/10/03/ICdZEsMpTyYJOom.png"></image>
+<view class="Pro">───── Pro Humanitate ─────</view>
+
+
+
+
+
+
+
+
+
+

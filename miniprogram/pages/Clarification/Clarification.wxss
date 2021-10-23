@@ -1,0 +1,55 @@
+page{
+    height: 100%;
+    /* background-image: linear-gradient(to bottom, #9E7E38 0%,#9E7E38 20%, #ececec 20%,#ececec 100%); */
+    background-color: #ececec;
+} 
+.topTitle{
+    /*卡片的宽度*/  
+    width: 90%;
+    text-align: center;
+    /*左外边距，这里代表距离最左边的距离*/
+    margin-left: 5%;
+    /*卡片的高度。*/
+    height: 100rpx;
+    color:black;
+    padding-top: 30px;
+    font-size: 20px;
+    color:rgb(158, 126, 56);
+}
+.card{
+    color:rgb(158, 126, 56);
+    /*卡片的宽度*/  
+    width: 90%;
+    /*左外边距，这里代表距离最左边的距离*/
+    margin-left: 5%;
+    /*卡片的高度。*/
+    height: 270rpx;
+    /*背景色，可以自己更换*/
+    background: rgb(255, 255, 255);
+    border-radius:10px;
+    /* radius是卡片的边框的圆润c程度*/
+    margin-top: 30px;
+    /* box-shadow: 5px 5px 5px #FDC314; */
+    box-shadow: 5px 5px 5px #cdcfcf;
+}
+.Pro{
+    font-style: italic;
+    color:rgb(196, 196, 196);
+    text-align: center;
+    margin-top: 30px;
+}
+.decoration{
+    border-bottom: rgb(196, 196, 196) 1px solid;
+    text-align: center;
+    height:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.decoration1{
+    text-align: center;
+    height:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
